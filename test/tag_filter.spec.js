@@ -17,7 +17,7 @@ describe("tag filter", function () {
   });
 
   it("handle no array", function () {
-    var filtered = filters.tag(tests, "bar");
+    filters.tag(tests, "bar");
     expect(tagFilter([{a: 1}], null)).to.eql([{a: 1}]);
   });
 
