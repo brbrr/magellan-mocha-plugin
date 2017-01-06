@@ -17,8 +17,7 @@
   },
   "homepage": "https://github.com/TestArmada/magellan-mocha-plugin#readme",
   "dependencies": {
-    "lodash": "^4.17.2",
-    "spawn-sync": "^1.0.15"
+    "lodash": "^4.17.2"
   },
   "devDependencies": {
     "chai": "^3.4.1",
