@@ -27,7 +27,7 @@
     "coffee-script": "^1.10.0",
     "eslint": "^1.10.3",
     "eslint-config-defaults": "^8.0.2",
-    "eslint-plugin-filenames": "^0.2.0",
+    "eslint-plugin-filenames": "^1.2.0",
     "istanbul": "^0.4.5",
     "mocha": "^3.2.0",
     "sinon": "^1.17.3"
