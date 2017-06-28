@@ -1,6 +1,7 @@
 var tagFilter = require("./lib/tag_filter");
 
 var plugin = {
+  name: "testarmada-magellan-mocha-plugin",
   initialize: function (argv) {
     plugin.settings.initialize(argv);
   },
@@ -13,7 +14,8 @@ var plugin = {
   },
   help: require("./lib/help"),
   settings: require("./lib/settings"),
-  TestRun: require("./lib/test_run")
+  TestRun: require("./lib/test_run"),
+  profile: require("./lib/profile")
 };
 
 module.exports = plugin;
